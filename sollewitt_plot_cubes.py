@@ -1,5 +1,7 @@
 import numpy as np
 import plotly.graph_objects as go
+import plotly.io as pio
+pio.renderers.default = "browser"
 
 # --- CUBE GEOMETRY DEFINITION ---
 # A cube has 8 vertices. We define their (x, y, z) coordinates.
